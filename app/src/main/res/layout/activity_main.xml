@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="10"
+    android:accessibilityLiveRegion="3">
+
+
+        <ListView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_weight="1"
+            android:scrollbars = "vertical"
+            android:transcriptMode="alwaysScroll"
+            android:stackFromBottom="true"
+            />
+
+
+    <LinearLayout android:id="@+id/FrameLayout01" android:layout_height="match_parent" android:layout_width="match_parent"
+        android:layout_weight="9">
+
+        <EditText
+            android:layout_width="232dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/message_text"
+            android:layout_gravity="center"
+            android:layout_weight="3.78"
+            android:background="@drawable/c_bottom_boreder" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_weight="3.83"
+            android:layout_height="match_parent"
+            android:background="@drawable/c_bottom_boreder"
+            android:gravity="center"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button3"
+            android:background="@drawable/c_bottom_boreder"
+            android:src="@drawable/ic_drawer"
+            android:layout_weight="1.40"
+            android:layout_gravity="center" />
+
+        <Button
+            android:text=">"
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:id="@+id/sendbtn"
+            android:layout_gravity="center"
+            android:background="@drawable/c_bottom_boreder" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.oddintellignet.www.myline.MainActivity">
+    <item
+        android:id="@+id/delect"
+        android:orderInCategory="100"
+        android:title="刪除"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/change_groupname"
+        android:orderInCategory="100"
+        android:title="更換名稱"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/change_topic"
+        android:orderInCategory="100"
+        android:title="更換密語"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/showde"
+        android:orderInCategory="100"
+        android:title="詳細內容"
+        app:showAsAction="never" />
+</menu>

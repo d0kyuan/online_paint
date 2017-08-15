@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.oddintellignet.www.myline.MainActivity">
+    <item android:title="遊戲功能">
+        <menu>
+            <item
+                android:id="@+id/onep"
+                android:orderInCategory="100"
+                android:title="加入遊戲"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/guess"
+                android:orderInCategory="100"
+                android:title="猜題"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/voi"
+                android:orderInCategory="100"
+                android:title="投票"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/addvoi"
+                android:orderInCategory="100"
+                android:title="發起投票"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/list"
+                android:orderInCategory="100"
+                android:title="遊戲列表"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/leave"
+                android:orderInCategory="100"
+                android:title="遊戲列表"
+                app:showAsAction="never" />
+            </menu>
+    </item>
+    <item android:title="聊天功能">
+        <menu>
+            <item
+                android:id="@+id/allp"
+                android:orderInCategory="100"
+                android:title="聊天"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/name"
+                android:orderInCategory="100"
+                android:title="更改名稱"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>
